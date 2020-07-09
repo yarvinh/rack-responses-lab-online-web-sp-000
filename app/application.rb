@@ -3,14 +3,14 @@ class Application
   def call(env)
   resp = Rack::Response.new
   # p self
-
-  time = Time.new
-  if time.hour > 11
-    resp.write "Good afternoon.\n"
-  else
-    resp.write "Good morning.\n"
-  end
-    resp.finish
+   Time.hour
+  # time = Time.new
+  # if time.hour > 11
+  #   resp.write "Good afternoon.\n"
+  # else
+  #   resp.write "Good morning.\n"
+  # end
+  #   resp.finish
   end
 
 #   resp = Rack::Response.new
