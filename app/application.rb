@@ -2,7 +2,7 @@ class Application
 
   def call(env)
   resp = Rack::Response.new
-  p :now
+  p now:
 
   # time = Time.new
   # if time.hour > 11
