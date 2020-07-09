@@ -10,7 +10,7 @@ class Application
   else
     resp.write "Good morning.\n"
   end
-  resp.finish
+    resp.finish
   end
 
 #   resp = Rack::Response.new
